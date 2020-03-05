@@ -1,0 +1,66 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  font-family: "Open Sans", "sans-serif", "FontAwesome";
+  font-weight: 300;
+  line-height: 1.3;
+  color: #444;
+  hyphens: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 7vw;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: #c2c2c2;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.infobox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  height: auto;
+  width: auto;
+  max-width: 30vw;
+  min-width: 186px;
+}
+
+.links {
+  font-size: 8vw;
+  text-align: center;
+}
+
+.tags {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tags > span {
+    font-size: 5vw;
+}
