@@ -10,6 +10,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  overflow: hidden;
 }
 
 h1 {
