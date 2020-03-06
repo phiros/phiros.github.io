@@ -13,11 +13,6 @@ html {
   overflow: hidden;
 }
 
-h1 {
-  text-align: center;
-  font-size: 7vw;
-}
-
 a,
 a:visited,
 a:active {
@@ -35,6 +30,11 @@ a:hover {
   justify-content: space-around;
 }
 
+h1 {
+  font-size: 4vw;
+  text-align: center;
+}
+
 .infobox {
   display: flex;
   flex-direction: column;
@@ -47,21 +47,35 @@ a:hover {
   width: auto;
   max-width: 30vw;
   min-width: 186px;
+  -webkit-filter: grayscale(30%);
+  filter: grayscale(30%);
 }
 
 .links {
-  font-size: 8vw;
+  font-size: 3vw;
   text-align: center;
 }
 
 .tags {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .tags > span {
-    font-size: 4vw;
+  font-size: 2vw;
+}
+
+@media (max-width: 700px) { 
+  h1 {
+    font-size: 6vw !important;
+  }
+  .links {
+    font-size: 5vw !important;
+  }
+  .tags > span {
+    font-size: 4vw !important;
+  }
 }
