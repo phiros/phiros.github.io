@@ -47,8 +47,6 @@ h1 {
   width: auto;
   max-width: 30vw;
   min-width: 186px;
-  -webkit-filter: grayscale(30%);
-  filter: grayscale(30%);
 }
 
 .links {
